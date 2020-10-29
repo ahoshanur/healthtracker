@@ -1,0 +1,213 @@
+/* Default */
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Work Sans', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.bg-sky {
+    background: #f7f9ff;
+}
+li {
+    list-style: none;
+}
+.d-shadow {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.d-shadow:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+
+
+/* Header Section */
+.header {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    width: 100%;
+}
+.header-section img {
+    width: 42px;
+}
+.header-section .navbar-brand{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+#navbarDropdown {
+    color: black;
+}
+.buy-now-button {
+    font-weight: 500;
+}
+
+
+
+/* Banner Section */
+.banner-section {
+    margin-top: 68px;
+    background: url(https://i.ibb.co/CwzhGDr/mbr-10.jpg) center center no-repeat;
+    padding: 170px 0;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.banner-section h4 {
+    font-weight: 400;
+}
+.banner-caption .btn {
+    background: #5ba533;
+    font-weight: 500;
+}
+.banner-caption .btn:hover {
+    background: white;
+    color: #6278df;
+    box-shadow: 4px 4px 28px 0 rgba(98, 120, 223, .4);
+    border: 1px splid #6278df;
+}
+
+
+
+/* Number Counter Section */
+.number-counter h5 {
+    font-weight: 400;
+}
+
+
+
+/* About Section */
+.about-section h5 {
+    font-weight: 400;
+}
+
+
+
+/* Feature Section */
+.feature-section-title h4{
+    font-weight: 400;
+}
+.feature-item {
+    height: 300px;
+    border-radius: 4px;
+    transition: .4s;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.feature-item:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.feature-img {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 4px 0 0 4px;
+}
+.feature-img img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+}
+.feature-text {
+    width: 60%;
+}
+.feature-text h6{
+    font-weight: 300;
+}
+
+
+
+/* Portfolio Section */
+.portfolio-img a {
+    display: block;
+    position: relative;
+}
+.portfolio-img a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfolio-img:hover a::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/* Pricing Section */
+.pricing-table {
+    background: white;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.pricing-table:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.pricing-table:hover .access-button{
+    background-color: #0d6efd;
+    color: white;
+}
+.pricing-table span {
+    display: inline-block;
+    width: 30px;
+    color: #6278df;
+    font-weight: 800;
+    text-align: center;
+}
+.access-button {
+    width: 80%;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.access-button:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
+
+
+
+/* Feedback Section */
+.author {
+    width: 200px;
+}
+.author img {
+    width: 80px;
+}
+.author-info {
+    position: relative;
+    top: 12px;
+}
+
+
+
+/* Team Section */
+.member img {
+    width: 120px;
+    height: auto;
+    margin-top: -80px;
+}
+
+
+
+/* Footer Section */
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* Code by Ahoshanur Rahman Akash */
